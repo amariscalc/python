@@ -2,6 +2,8 @@
 import sys
 import io
 import module1
+from coche import coche
+
 
 # Declaración de variables
 nombre = "Alberto"
@@ -11,4 +13,6 @@ lugarNacimiento = "Sevilla"
 # Imprimimos por pantalla
 print ("Hola soy",nombre,"y tengo",edad,"años y nací en",lugarNacimiento)
 
-print (module1.PI)
+# Creamos un coche
+cocheAlberto = coche ("Seat", "Ateca", "negro", 20171101)
+print (cocheAlberto.marca, cocheAlberto.color)
