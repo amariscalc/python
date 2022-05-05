@@ -4,15 +4,15 @@ import io
 import module1
 from coche import coche
 
+# Creamos un coche
+cocheAlberto = coche ("Seat", "Ateca", "negro", 2017)
 
 # Declaración de variables
 nombre = "Alberto"
 edad = 34
 lugarNacimiento = "Sevilla"
 
-# Imprimimos por pantalla
-print ("Hola soy",nombre,"y tengo",edad,"años y nací en",lugarNacimiento)
 
-# Creamos un coche
-cocheAlberto = coche ("Seat", "Ateca", "negro", 20171101)
-print (cocheAlberto.marca, cocheAlberto.color)
+# Imprimimos por pantalla
+print ("Hola soy",nombre,"y tengo",edad,"años y nací en",lugarNacimiento,". Tengo un coche que es un",cocheAlberto.marca,cocheAlberto.modelo,"del año",cocheAlberto.fechaMatriculacion)
+
